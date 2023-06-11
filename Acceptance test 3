@@ -1,0 +1,13 @@
+Feature: Register personal data of the user
+
+	As a user
+	I want to be able to register my data in the 	application
+	So that that the application can store my 	data, and I can enter the application from 	another device with my account
+
+Acceptance criteria:
+	*The user must verify the log in of another device
+	
+	Scenario: The user wants to register its 	personal data
+	 Given that the user is in the Register personal data option within the application and fills in the empty boxes of: Name, Address, Password, Email and Surname
+	 When clicks on the "Register" button
+	 Then the system will store the data entered by the user
