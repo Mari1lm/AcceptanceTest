@@ -1,15 +1,14 @@
-Feature: set up user profile
+Feature: Compatibility with different operating systems on mobile devices
 
 	As a user
-	I want to be able to set up my user 	profile.
-	So that I can modify my nickname, email and 	phone number on the app.
+	I want to the application to be compatible with most versions of operating systems, be it 	Android and IOS
+	So that I may have no problems in its use
 
 Acceptance criteria:
-	*The user must confirm password to make 	 changes
-	*Company members require authorization from 	 their employer to make changes
+	*The user can have an android or IOS system
 	
-	Scenario: Andrea wants to change her nickname
-	 Given she clicks on “Profile” button
-	 And clicks on the pencil picture for editing
-	 When she writes a different nickname and 	 saves it
-	 Then a message saying “Changes saved 	 correctly” appears
+	Scenario: The user wants to download the app
+	 Given that the user has an Android or IOS device
+	 And the user locates our application in the Play Store or App Store
+	 When she the user tries to download the app on any of those operating systems
+	 Then the app will download and function correctly despite de operating system
