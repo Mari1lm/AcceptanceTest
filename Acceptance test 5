@@ -1,0 +1,14 @@
+Feature: Activate roadstead
+
+	As user
+	I want to be able to activate the GPS or radar.
+	So that know if in the area where I am located at  that moment someone can be located who could 	endanger my life.
+
+Acceptance criteria:
+	*The user must confirm password to make 	changes
+	*Company members require authorization from theiremployer to make changes
+	
+	Scenario: Activate roadstead
+	 Given that the user is in the Radar option within the application.
+	 When you click on the “Activate Radar“ button
+   Then the system request to activate the GPS of your 	 device and you will be able to see in real time if any danger is located by area.
