@@ -5,7 +5,7 @@ Feature: Activate roadstead
 	So that know if in the area where I am located at  that moment someone can be located who could 	endanger my life.
 
 Acceptance criteria:
-	*The user must confirm password to make 	changes
+	*The user must confirm password to make changes
 	*Company members require authorization from theiremployer to make changes
 	
 	Scenario: Activate roadstead
