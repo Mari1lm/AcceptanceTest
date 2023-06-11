@@ -1,0 +1,13 @@
+Feature: Register User Location
+
+	As user
+	I want to be able to register my location in the 	application.
+	So that I can know if I´m in a dangerous area.
+
+Acceptance criteria:
+	*The user must confirm password to make 	 	changes
+	*Company members require authorization from their 	employer to make changes
+	
+	Scenario: Register User Location
+	 Given the user is in the Location Registration 	 option within the application.
+	 When you click on the “Register location “ button	 Then the system will store the entered location data
