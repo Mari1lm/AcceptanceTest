@@ -1,0 +1,15 @@
+Feature: set up user profile
+
+	As a user
+	I want to be able to set up my user 	profile.
+	So that I can modify my nickname, email and 	phone number on the app.
+
+Acceptance criteria:
+	*The user must confirm password to make 	 changes
+	*Company members require authorization from 	 their employer to make changes
+	
+	Scenario: Andrea wants to change her nickname
+	 Given she clicks on “Profile” button
+	 And clicks on the pencil picture for editing
+	 When she writes a different nickname and 	 saves it
+	 Then a message saying “Changes saved 	 correctly” appears
